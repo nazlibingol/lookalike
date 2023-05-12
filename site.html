@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Traveler Persona</title>
+    <style>
+
+.img{
+   padding-left: 15px;
+}
+ul.tabloa {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #052b3e;
+  border: #052b3e;
+}
+.tabloa{
+  border: #052b3e;
+}
+li {
+  float: left;
+  border: #052b3e;
+}
+li a {
+  display: block;
+  color: 	#00ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: #052b3e;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  .sag {
+    background-color: 	#e9967a;
+    color:white;
+           
+}
+.orta{
+    color:white;
+    text-align: center
+}
+.handwriting{
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+.title{
+    border-style: solid;
+    background-color:#b22222;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: #b22222;
+    
+}
+img:hover {
+  transform: scaleX(-1);
+}
+
+body{
+    border-style: solid;
+    border-color:#b22222;
+    /*padding-left: 100px;
+    padding-right: 100px;*/
+    border-width: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 1200px;
+}
+.fenty{
+
+    font-style: italic;
+    background-color: #eff3f4;
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    margin: 15px;
+    font-weight:bold; 
+    font-size: 20px;
+    padding-block-start:15px;
+}
+.bilgi{
+    color: #b22222;
+    font-size: 17px;
+    padding: 15px;
+    margin: 15px;
+    padding-block-start:15px;
+}
+.a1{
+  display: inline; 
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color:#b22222;
+  color: aliceblue;
+  font-size: 17px;
+  margin-left:30px;
+  
+  
+}
+.a2{
+  display: inline; 
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: #b22222;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: aliceblue;
+  font-size: 17px;
+
+}
+
+.ortabaslık{
+    text-align: center;
+    position: relative;
+    bottom: 916px;
+    color: #b22222;
+}
+.ortametin{
+    text-align: center;
+    position: relative;
+    bottom: 1070px;
+    font-size: 17px;
+    margin-top: 0%;
+    
+
+}
+.ortabaslık,.ortametin {
+     background-color:  #eff3f4;
+     width: 400px;
+     margin-left:auto;
+     margin-right:auto;
+     padding-top: 0%;
+     padding-bottom: 0%;
+     margin-top: 0%;
+     margin-bottom: 10%;
+      width:35%;
+}
+.slidecontainer {
+  width: 35%;
+}
+
+.slider {
+    position: relative ;
+    left: 400px;
+  -webkit-appearance: none;
+  width: 35%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/*.slider:hover {
+  opacity: 100;
+}
+*/
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #b22222 ;
+  cursor: pointer;
+}
+
+/*.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+} */
+.ortametin2{
+    color: #b22222;
+    font-size: 30px;
+}
+.ortametin2,.ortametinbar,.slider{
+     text-align: center;
+     margin-left :90px;
+     margin-right:auto;
+     position: relative;
+     bottom: 1150px;
+    
+}
+.ortametinbar{
+font-size: 17px;
+}
+.chart {
+  height: 2rem;
+  width: 30rem;
+}
+
+.chart div {
+  height: 100%;
+  float: left;
+}
+
+.chart .start {
+  border-radius: 2rem 0 2 2rem;
+}
+
+.chart .end {
+  border-radius: 0 2rem 2rem 0;
+}
+
+.chart .red {
+  background-color: #b22222;
+  position: relative ;
+  bottom: 1110px;
+}
+
+.chart .grey {
+  background-color: #dcdcdc;
+  position: relative ;
+  bottom: 1110px;;
+  
+}
+.chart{
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center; 
+  font-size: 17px;
+}
+#n{
+  position:relative;
+  bottom: 1100px;
+}
+#a{
+  position:relative;
+  bottom: 1100px;
+}#z{
+  position:relative;
+  bottom: 1100px;
+}#l{
+  position:relative;
+  bottom: 1100px;
+}
+.ortasonbaslık{
+   color: #b22222;
+   position: relative;
+   text-align: center;
+   bottom: 1120px;
+}
+
+.sagilkbaslik{
+  color: #b22222;
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2100px;
+  height: 140px;
+  left:170px;
+
+}
+ul.tablo {
+  position: relative;
+  text-align: right;
+  bottom:2200px;
+  height: 160px;
+  left:550px;
+  background-color:transparent;
+  font-size: 17px;
+
+}
+ul li {
+color: #b22222;
+}
+
+.sagikincibaslik{
+  color: #b22222;
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2250px;
+  height: 140px;
+  left:250px;
+
+}
+ul.tablo2 {
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2300px;
+  height: 160px;
+  left:550px;
+  background-color:transparent;
+  font-size: 17;
+
+}
+.sagucuncubaslik{
+  color: #b22222;
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2350px;
+  height: 100px;
+  left: 250px;
+}
+#b{
+  position:relative;
+  bottom: 2400px;
+  left: 600px;
+}
+#i{
+  position:relative;
+  bottom: 2400px;
+  left: 600px;
+}#nn{
+  position:relative;
+  bottom: 2400px;
+  left: 600px;
+}#g{
+  position:relative;
+  bottom: 2400px;
+  left: 600px;
+}
+#o{
+  position:relative;
+  bottom: 2400px;
+  left: 600px;
+}
+
+.chartm{
+  /*position: relative;
+  text-align: right;
+  right: 0;*/
+ /* bottom:1560px;
+  height: 160px;
+  left:700px;*/
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: right; 
+  
+}
+.chartm .red {
+  background-color: #b22222;
+  position: relative ;
+  bottom: 2400px;
+  left: 600px;
+}
+
+.chartm .grey {
+  background-color: #dcdcdc;
+  position: relative ;
+  bottom: 2400px;
+  left: 600px;
+}
+.sonbaslık{
+  color: #b22222;
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2380px;
+  height: 160px;
+  left:260px;
+}
+.brandspic{
+  position: relative;
+  position: relative;
+  text-align: right;
+  right: 0;
+  bottom:2510px;
+  height: 160px;
+  left:450px;
+}
+.footer {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  left :0;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  background : #efefef;
+  font-size : 19px
+}
+/*margin*/
+</style>
+</head>
+<body>
+
+    <ul class="tabloa">
+
+        <li><a class ="handwriting" ; href="https://xtensio.com/">Xtensio</a></li>
+        <li><a class ="first" ; href="https://xtensio.com/templates/">Templates</a></li>
+        <li><a class ="second" ;href="https://calendly.com/xtensio/xtensio-free-weekly-demo?month=2022-09">Join a Demo</a></li>
+        <li><a class ="third" ;href="https://help.xtensio.com/">Help</a></li>
+        <li style="float:right"><a class="sag" href="https://app.xtensio.com/design/tqbu1qfe">Edit This Template</a></li>
+        <li style="float:right"><a class="sol" href="">by Xtensio</a></li>
+        <p  class="orta">Create powerful business content together</p>
+
+</ul>
+<h1 class="title">Rihanna</h1>
+<div class="clearfix"></div>
+<img class="img"; src="C:\Users\Nazlı Ali Monster\Desktop\css\Rihanna.png" alt="Rihanna" width="330" height="=400" >
+
+<div class="gallery">
+<pre class="fenty">
+"I'm looking for a site that
+will simplify the planning
+of my business trips."</pre>
+      <div></div>
+<pre class="bilgi">       
+Age: 35
+Work: Regional Director
+Family: Married, 1 child
+Location: Austin, TX
+Character: The Frequent Flyer</pre> <br> <br>
+<div class="a1">Organized</div> <div class="a1">Practical</div>  <br> <br> <br><br>
+<div class="a2">Protective</div><div class="a2">Hardworking</div> <br> <br>
+
+<h1 class="ortabaslık" >Bio</h1>
+<pre class="ortametin">
+     Jill is a Regional Director who travels 4-8
+     times each month for work. She has a 
+     specific region in which she travels, and 
+     she often visits the same cities and stays
+     at the same hotel. She is frustrated by the
+     fact that no matter how frequently she 
+     takes similar trips, she spends hours of her 
+     day booking travel. She expects her travel 
+     solutions to be as organized as she is.
+
+</pre>
+<h1 class="ortametin2">Personality</h1>
+<pre class="ortametinbar">Introvert                        Extrovert</pre>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+<pre class="ortametinbar">Analytical                        Creative</pre>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+<pre class="ortametinbar">Loyal                             Fickle</pre>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+<pre class="ortametinbar">Passive                           Active</pre>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+
+  <h1 class="ortasonbaslık">Prefered Chanels</h1>
+    <div class="chart">
+           <div id="n">Chrome</div>
+    <br>
+    <div style="width:25%" class="red start"></div>
+    <div style="width:25%" class="grey"></div>
+    <div class="chart">
+           <div id="a" >Mobile</div> 
+    <br>
+    <div style="width:40%" class="red start"></div>
+    <div style="width:10%" class="grey"></div>
+    <div class="chart">
+      <div id="z">E-mail</div>
+    <br>
+    <div style="width:35%" class="red start"></div>
+    <div style="width:15%" class="grey"></div>
+    <div class="chart">
+      
+      <div id="n">Tra Ads</div>
+<br>
+<div style="width:25%" class="red start"></div>
+<div style="width:25%" class="grey"></div>
+
+      
+    
+
+<h1 class="sagilkbaslik">Goals</h1>
+
+<ul class="tablo">
+  <li>To spend less time booking travel</li> <br>
+  <li>To narrow her options quickly</li>
+</ul>
+<h1 class="sagikincibaslik">Frustrations</h1>
+
+<ul class="tablo2">
+  <li>Too much time spent booking - she's busy!</li> <br>
+  <li>Too many websites visited per trip</li>
+  <li>Not terribly tech-savvy - doesn't like the process</li>
+</ul>
+<h1 class="sagucuncubaslik">Motivation</h1>
+
+<div class="chartm">
+  <div id="b">Price</div>
+<br>
+<div style="width:25%" class="red start"></div>
+<div style="width:25%" class="grey"></div>
+<div class="chartm">
+  <div id="i" >Comfo</div> 
+<br>
+<div style="width:40%" class="red start"></div>
+<div style="width:10%" class="grey"></div>
+<div class="chartm">
+   <div id="nn">Convin</div>
+<br>
+<div style="width:35%" class="red start"></div>
+<div style="width:15%" class="grey"></div>
+<div class="chartm">
+  <div id="g">Speed</div>
+<br>
+<div style="width:35%" class="red start"></div>
+<div style="width:15%" class="grey"></div>
+<div class="chartm">
+  <div id="o" >Loyal</div> 
+<br>
+<div style="width:40%" class="red start"></div>
+<div style="width:10%" class="grey"></div>
+
+<h1 class="sonbaslık">Brands</h1>
+<img class="brandspic"src="C:\Users\Nazlı Ali Monster\Desktop\css\use.png" alt="brands">
+
+
+</body>
+</html>
